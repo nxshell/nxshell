@@ -1,4 +1,7 @@
-### Hi there 👋
+# NxShell
+
+An easy to use new terminal. You can instead of Xshell or Secure shell client.
+
 
 <!--
 **nxshell/nxshell** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
