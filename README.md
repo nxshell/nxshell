@@ -4,7 +4,12 @@ An easy to use new terminal. You can instead of Xshell or Secure shell client.
 
 ## Features
 
-- support ssh protocol
+- Support SSH protocol
+
+## Future(TODO)
+
+- [ ] Xftp
+- [ ] WebDAV
 
 ## How to report bug
 
