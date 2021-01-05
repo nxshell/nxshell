@@ -2,6 +2,13 @@
 
 An easy to use new terminal. You can instead of Xshell or Secure shell client.
 
+## Features
+
+- support ssh protocol
+
+## How to report bug
+
+Welcome report bug to the [list](https://github.com/nxshell/nxshell/issues)
 
 <!--
 **nxshell/nxshell** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
