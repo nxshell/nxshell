@@ -5,6 +5,7 @@ An easy to use new terminal. You can instead of Xshell or Secure shell client.
 ## Features
 
 - Support SSH protocol
+- Support Windows/Linux platform
 
 ## Future(TODO)
 
