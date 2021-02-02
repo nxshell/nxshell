@@ -16,6 +16,10 @@ An easy to use new terminal. You can instead of Xshell or Secure shell client.
 
 Welcome report bug to the [list](https://github.com/nxshell/nxshell/issues)
 
+## Contact us
+
+![QQ](https://github.com/nxshell/nxshell/blob/main/screenshots/qq.jpg)
+
 <!--
 **nxshell/nxshell** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
