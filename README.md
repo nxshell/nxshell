@@ -16,6 +16,10 @@ An easy to use new terminal. You can instead of Xshell or Secure shell client.
 
 Welcome report bug to the [list](https://github.com/nxshell/nxshell/issues)
 
+## How to Install
+
+To [download](https://github.com/nxshell/nxshell/releases) page and select lastest package.
+
 ## Contact us
 
 QQ Group： 199234440
