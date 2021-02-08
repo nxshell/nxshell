@@ -6,6 +6,7 @@ An easy to use new terminal. You can instead of Xshell or Secure shell client.
 
 - Support SSH protocol
 - Support Windows/Linux platform
+- Support language for en-US and zh-CN
 
 ## Future(TODO)
 
