@@ -19,7 +19,7 @@ Welcome report bug to the [list](https://github.com/nxshell/nxshell/issues)
 
 ## How to Install
 
-To [download](https://github.com/nxshell/nxshell/releases) page and select lastest package.
+To [download](https://github.com/nxshell/nxshell/releases) page and select latest package.
 
 ## Contact us
 
