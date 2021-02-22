@@ -2,6 +2,10 @@
 
 An easy to use new terminal. You can instead of Xshell or Secure shell client.
 
+## Screenshots
+
+Refer to NxShell client [screenshots](https://github.com/nxshell/nxshell/tree/main/screenshots).
+
 ## Features
 
 - Support SSH protocol
