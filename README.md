@@ -29,6 +29,9 @@ To [download](https://github.com/nxshell/nxshell/releases) page and select lates
 
 QQ Group： 199234440
 
+Email: 82828068 At qq.com
+
+
 <!--
 **nxshell/nxshell** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
