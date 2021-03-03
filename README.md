@@ -1,6 +1,6 @@
 # NxShell
 
-An easy to use new terminal. You can instead of Xshell or Secure shell client.
+An easy to use new terminal. It like Xshell or Secure shell client.
 
 ## Screenshots
 
