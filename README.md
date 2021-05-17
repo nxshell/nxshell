@@ -2,6 +2,10 @@
 
 An easy to use new terminal. It like Xshell or Secure shell client.
 
+# NxShell Video
+
+[![NxShell-how-to-use-it](https://github.com/nxshell/nxshell/blob/main/screenshots/welcome.jpg)](https://www.youtube.com/watch?v=6hfdfg1Bhqo)
+
 ## Screenshots
 
 Refer to NxShell client [screenshots](https://github.com/nxshell/nxshell/tree/main/screenshots).
@@ -11,10 +15,12 @@ Refer to NxShell client [screenshots](https://github.com/nxshell/nxshell/tree/ma
 - Support SSH protocol
 - Support Windows/Linux/MacOS platform
 - Support language for en-US and zh-CN
+- Support Sftp protocol
+- Support SSH tunnel(sockv5). By default it listen on port 10080.
 
 ## Future(TODO)
 
-- [ ] Xftp
+- [ ] ftp
 - [ ] WebDAV
 
 ## How to report bug
