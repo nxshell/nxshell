@@ -17,7 +17,7 @@ Refer to NxShell client [screenshots](https://github.com/nxshell/nxshell/tree/ma
 - Support Windows/Linux/MacOS platform
 - Support language for en-US and zh-CN
 - Support Sftp protocol
-- Support SSH tunnel(sockv5). By default it listen on port 10080.
+- Support SSH tunnel(socksv5). By default it listen on port 10080.
 - Support ftp protocol
 - Support session config import/export
 
