@@ -32,6 +32,7 @@
 ## 安装NxShell
 
 欢迎到下载页面 [download](https://github.com/nxshell/nxshell/releases) 下载最新的安装包安装使用.
+> 由于DMG的Mac包没有签名, 需要右键菜单中的打开运行
 
 ## 联系我们
 
