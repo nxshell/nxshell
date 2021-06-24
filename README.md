@@ -37,6 +37,8 @@ To [download](https://github.com/nxshell/nxshell/releases) page and select lates
 
 ## Contact us
 
+Wechat: yuniot8
+
 QQ Group： 199234440
 
 Email: 82828068 At qq.com
