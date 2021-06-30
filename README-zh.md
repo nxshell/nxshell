@@ -3,9 +3,16 @@
 
 # NxShell 操作短视频
 
-[![操作短视频](https://github.com/nxshell/nxshell/blob/main/screenshots/welcome.jpg)](https://www.youtube.com/watch?v=6hfdfg1Bhqo)
+<a href="https://www.youtube.com/watch?v=6hfdfg1Bhqo"><img src="https://github.com/nxshell/nxshell/blob/main/screenshots/welcome.jpg" width="100%" height="450" center /></a><br />
 
 ## 软件界面截图
+
+<div align="center">
+  <div style="display: flex;justify-content: space-between;">
+    <img src="https://raw.githubusercontent.com/nxshell/nxshell/main/screenshots/ssh-terminal.png" width="45%" height="350"/>
+    <img src="https://raw.githubusercontent.com/nxshell/nxshell/main/screenshots/sftp-download.png" width="45%" height="350" />
+  </div>
+</div>
 
 欢迎访问界面截图集 [截图](https://github.com/nxshell/nxshell/tree/main/screenshots).
 
