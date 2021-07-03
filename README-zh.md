@@ -18,7 +18,7 @@
 
 ## 功能
 
-- 支持SSH/Sftp协议
+- 支持SSH/Sftp/ftp协议
 - 支持linux/windows/macos多端平台
 - 支持中文和英文两种语言
 - 支持ssh隧道socksv5，当前开启后默认监听在localhost:10080
@@ -27,7 +27,7 @@
 
 ## 待开发的功能(TODO)
 
-- [ ] ftp协议
+- [ ] 主题配置
 - [ ] WebDAV协议
 - [ ] 插件管理功能
 - [ ] 远程会话配置文件
