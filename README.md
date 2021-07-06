@@ -27,6 +27,7 @@ More [screenshots](https://github.com/nxshell/nxshell/tree/main/screenshots).
 - Support SSH tunnel(socksv5). By default it listen on port 10080.
 - Support ftp protocol
 - Support session config import/export
+- Support xterm theme config
 
 ## Future(TODO)
 
