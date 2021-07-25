@@ -28,6 +28,8 @@ More [screenshots](https://github.com/nxshell/nxshell/tree/main/screenshots).
 - Support ftp protocol
 - Support session config import/export
 - Support xterm theme config
+- Support Serial protocol
+- Support xterm logger manager
 
 ## Future(TODO)
 
