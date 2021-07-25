@@ -18,13 +18,14 @@
 
 ## 功能
 
-- 支持SSH/Sftp/ftp协议
+- 支持SSH/Sftp/ftp/Serial协议
 - 支持linux/windows/macos多端平台
 - 支持中文和英文两种语言
 - 支持ssh隧道socksv5，当前开启后默认监听在localhost:10080
 - 支持会话管理,导入和导出功能等
 - 支持ssh rz/sz命令文件上传下载
 - 支持终端主题配置
+- 支持终端日志管理
 
 ## 待开发的功能(TODO)
 
