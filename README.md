@@ -42,8 +42,9 @@ More [screenshots](https://github.com/nxshell/nxshell/tree/main/screenshots).
 Welcome report bug to the [list](https://github.com/nxshell/nxshell/issues)
 
 ## How to Install
-
-To [download](https://github.com/nxshell/nxshell/releases) page and select latest package.
+ * Download from Microsoft App Store. [link](https://www.microsoft.com/store/apps/9N0NP4JJ192W)
+ * Linux Download from Snapcraft. [link](https://snapcraft.io/nxshell)
+ * Download from github release. [link](https://github.com/nxshell/nxshell/releases)
 
 ## Contact us
 
