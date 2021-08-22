@@ -38,8 +38,9 @@
 欢迎提交bug到github的issue列表 [提交](https://github.com/nxshell/nxshell/issues)
 
 ## 安装NxShell
-
-欢迎到下载页面 [download](https://github.com/nxshell/nxshell/releases) 下载最新的安装包安装使用.
+* 微软应用商店下载. [link](https://www.microsoft.com/store/apps/9N0NP4JJ192W)
+* Ubuntu官方商店snap下载. [link](https://snapcraft.io/nxshell)
+* Github官方release下载. [link](https://github.com/nxshell/nxshell/releases)
 > 由于DMG的Mac包没有签名, 需要右键菜单中的打开运行
 
 ## 联系我们
