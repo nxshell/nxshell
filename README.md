@@ -30,6 +30,7 @@ More [screenshots](https://github.com/nxshell/nxshell/tree/main/screenshots).
 - Support xterm theme config
 - Support Serial protocol
 - Support xterm logger manager
+- Support VNC protocol
 
 ## Future(TODO)
 
