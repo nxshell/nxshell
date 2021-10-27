@@ -18,7 +18,7 @@
 
 ## 功能
 
-- 支持SSH/Sftp/ftp/Serial协议
+- 支持SSH/Sftp/ftp/Serial/VNC协议
 - 支持linux/windows/macos多端平台
 - 支持中文和英文两种语言
 - 支持ssh隧道socksv5，当前开启后默认监听在localhost:10080
