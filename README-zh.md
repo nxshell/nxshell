@@ -51,6 +51,8 @@ QQ群： 199234440
 
 邮箱: 82828068 At qq.com
 
+## 支持NxShell
+当前NxShell仅支持中文和英语两种语言，如果您有其它语言优势，欢迎加入我们一起翻译更多的语言包(日语、德语、法语、英语等)
 
 <!--
 **nxshell/nxshell** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
