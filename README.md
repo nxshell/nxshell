@@ -55,6 +55,8 @@ QQ Group： 199234440
 
 Email: 82828068 At qq.com
 
+## Join us
+Current NxShell Only support Chinese and English, If you are good at language translation, please contact us.
 
 <!--
 **nxshell/nxshell** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
