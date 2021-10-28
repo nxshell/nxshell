@@ -34,9 +34,7 @@ More [screenshots](https://github.com/nxshell/nxshell/tree/main/screenshots).
 
 ## Future(TODO)
 
-- [ ] WebDAV
-- [ ] Plugins framework
-- [ ] Config as a service
+- NxShell 2.0
 
 ## How to report bug
 
