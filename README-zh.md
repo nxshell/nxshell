@@ -39,6 +39,7 @@
 * 微软应用商店下载. [link](https://www.microsoft.com/store/apps/9N0NP4JJ192W)
 * Ubuntu官方商店snap下载. [link](https://snapcraft.io/nxshell)
 * Github官方release下载. [link](https://github.com/nxshell/nxshell/releases)
+* 安卓Alpha应用下载.[link](https://github.com/nxshell/nxshell-mobile/releases)
 > 由于DMG的Mac包没有签名, 需要右键菜单中的打开运行
 
 ## 联系我们
