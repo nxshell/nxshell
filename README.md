@@ -45,6 +45,7 @@ Welcome report bug to the [list](https://github.com/nxshell/nxshell/issues)
  * Linux Download from Snapcraft. [link](https://snapcraft.io/nxshell)
  * Download from github release. [link](https://github.com/nxshell/nxshell/releases)
  * Android APP from github release(Alpha).[link](https://github.com/nxshell/nxshell-mobile/releases)
+ * Android APP from Google Play.[link](https://play.google.com/store/apps/details?id=com.nxshell.nxshell)
 
 ## Contact us
 
