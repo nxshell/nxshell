@@ -31,7 +31,9 @@ More [screenshots](https://github.com/nxshell/nxshell/tree/main/screenshots).
 - Support Serial protocol
 - Support xterm logger manager
 - Support VNC protocol
-
+- Support Dark/Light theme config
+- Support session FullScreen
+ 
 ## Future(TODO)
 
 - NxShell 2.0
