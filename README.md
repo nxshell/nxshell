@@ -3,16 +3,14 @@
 
 An easy to use new terminal for Windows/Linux/MacOS platform. It like Xshell or SecureCRT or PuTTY shell client.
 
-# NxShell Video
-
-<a href="https://www.youtube.com/watch?v=6hfdfg1Bhqo"><img src="https://github.com/nxshell/nxshell/blob/main/screenshots/welcome.jpg" width="100%" height="450" center /></a><br />
-
 ## Screenshots
 
 <div align="center">
   <div style="display: flex;justify-content: space-between;">
-    <img src="https://raw.githubusercontent.com/nxshell/nxshell/main/screenshots/ssh-terminal.png" width="45%" height="350"/>
-    <img src="https://raw.githubusercontent.com/nxshell/nxshell/main/screenshots/sftp-download.png" width="45%" height="350" />
+    <img src="https://raw.githubusercontent.com/nxshell/nxshell/main/screenshots/mac.png" />
+  </div>
+  <div style="display: flex;justify-content: space-between;">
+    <img src="https://raw.githubusercontent.com/nxshell/nxshell/main/screenshots/windows.jpg" />
   </div>
 </div>
 
