@@ -1,16 +1,14 @@
 # NxShell
 一款跨平台的SSH新终端工具,就像当下流行的Xshell/SecureCRT/PuTTY终端一样.但NxShell随着后期功能的迭代完善,会生长出自己独有的终端工具超能力.
 
-# NxShell 操作短视频
-
-<a href="https://www.youtube.com/watch?v=6hfdfg1Bhqo"><img src="https://github.com/nxshell/nxshell/blob/main/screenshots/welcome.jpg" width="100%" height="450" center /></a><br />
-
 ## 软件界面截图
 
 <div align="center">
   <div style="display: flex;justify-content: space-between;">
-    <img src="https://raw.githubusercontent.com/nxshell/nxshell/main/screenshots/ssh-terminal.png" width="45%" height="350"/>
-    <img src="https://raw.githubusercontent.com/nxshell/nxshell/main/screenshots/sftp-download.png" width="45%" height="350" />
+    <img src="https://raw.githubusercontent.com/nxshell/nxshell/main/screenshots/mac.png" />
+  </div>
+  <div style="display: flex;justify-content: space-between;">
+    <img src="https://raw.githubusercontent.com/nxshell/nxshell/main/screenshots/windows.jpg" />
   </div>
 </div>
 
