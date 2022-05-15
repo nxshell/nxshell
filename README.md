@@ -1,7 +1,7 @@
 # NxShell
-### ![中文介绍](https://github.com/nxshell/nxshell/blob/main/README-zh.md)
+### [中文介绍](https://github.com/nxshell/nxshell/blob/main/README-zh.md)
 
-An easy to use new terminal for Windows/Linux/MacOS platform. It like Xshell or SecureCRT or PuTTY shell client.
+An easy to use new terminal for Windows/Linux/MacOS platforms. It likes Xshell, SecureCRT or PuTTY shell client.
 
 ## Screenshots
 
@@ -38,7 +38,7 @@ More [screenshots](https://github.com/nxshell/nxshell/tree/main/screenshots).
 
 ## How to report bug
 
-Welcome report bug to the [list](https://github.com/nxshell/nxshell/issues)
+Welcome to report bug to the [list](https://github.com/nxshell/nxshell/issues)
 
 ## How to Install
  * Download from Microsoft App Store. [link](https://www.microsoft.com/store/apps/9N0NP4JJ192W)
@@ -56,7 +56,7 @@ QQ Group： 199234440
 Email: 82828068 At qq.com
 
 ## Join us
-Current NxShell Only support Chinese and English, If you are good at language translation, please contact us.
+Current NxShell Only supports Chinese and English, If you are good at language translation, please contact us.
 
 <!--
 **nxshell/nxshell** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
