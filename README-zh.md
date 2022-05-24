@@ -39,6 +39,7 @@
 * Github官方release下载. [link](https://github.com/nxshell/nxshell/releases)
 * 安卓Alpha应用下载.[link](https://github.com/nxshell/nxshell-mobile/releases)
 * 安卓应用商店下载.[GP link](https://play.google.com/store/apps/details?id=com.nxshell.nxshell)
+* 从daily build 仓库下载安装. [link](http://106.15.238.81:52080/)
 > 由于DMG的Mac包没有签名, 需要右键菜单中的打开运行
 
 ## 联系我们
