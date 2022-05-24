@@ -46,6 +46,7 @@ Welcome to report bug to the [list](https://github.com/nxshell/nxshell/issues)
  * Download from github release. [link](https://github.com/nxshell/nxshell/releases)
  * Android APP from github release(Alpha).[link](https://github.com/nxshell/nxshell-mobile/releases)
  * Android APP from Google Play.[link](https://play.google.com/store/apps/details?id=com.nxshell.nxshell)
+ * Download package from our Daily build repo. [link](http://106.15.238.81:52080/)
 
 ## Contact us
 
