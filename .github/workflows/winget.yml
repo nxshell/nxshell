@@ -9,4 +9,4 @@ jobs:
       - uses: vedantmgoyal2009/vedantmgoyal2009/winget-pkgs-automation/releaser-action@v1.0.0
         with:
           identifier: NxShellTeam.NxShell
-          token: ${{ secrets.WINGET_TOKEN }}
+          token: ${{ secrets.WIN_T }}
