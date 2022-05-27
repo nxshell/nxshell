@@ -60,8 +60,10 @@ Email: 82828068 At qq.com
 Current NxShell Only supports Chinese and English, If you are good at language translation, please contact us.
 
 ## Real-world Uses
-Welcome to pull request [here](https://github.com/nxshell/nxshell/pulls), who use it in real team/company.
+Welcome to pull request [here](https://github.com/nxshell/nxshell/pulls), who use it in real team/company. We would love to have it in our list.
+ 
  - NxShell team
+ - ...
 
 <!--
 **nxshell/nxshell** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
