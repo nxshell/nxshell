@@ -48,6 +48,19 @@ Welcome to report bug to the [list](https://github.com/nxshell/nxshell/issues)
  * Android APP from Google Play.[link](https://play.google.com/store/apps/details?id=com.nxshell.nxshell)
  * Download package from our Daily build repo. [link](http://106.15.238.81:52080/)
 
+
+## License
+- The NxShell community binary distribution version provides basic SSH/SFTP functions for everyone to use for free, and supports the author to continue to provide useful development tools. Welcome to donate to the NxShell community to continue to grow!
+- If the company/team needs to customize the function and apply it to the private software repository, please contact the author for technical support!
+
+
+## Donate
+<div align="center">
+  <div style="display: flex;justify-content: space-between;">
+    <img src="https://raw.githubusercontent.com/nxshell/nxshell/main/screenshots/wpay.jpg" width = "300" height = "300"/>
+  </div>
+</div>
+
 ## Contact us
 
 Wechat: yuniot8
