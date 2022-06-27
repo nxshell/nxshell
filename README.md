@@ -33,6 +33,7 @@ More [screenshots](https://github.com/nxshell/nxshell/tree/main/screenshots).
 - Support session FullScreen
 - Support layout
 - Support send command to ALL open ssh sessions
+- Support Lock/UnLock ops on session
  
 ## Future(TODO)
 
