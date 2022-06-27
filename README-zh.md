@@ -42,6 +42,17 @@
 * 从daily build 仓库下载安装. [link](http://106.15.238.81:52080/)
 > 由于DMG的Mac包没有签名, 需要右键菜单中的打开运行
 
+## 使用说明
+NxShell社区二进制分发版本提供基础的SSH/SFTP功能供大家免费使用，支持作者继续提供好用的开发工具，欢迎捐献NxShell社区继续成长！
+
+## 捐献社区
+<div align="center">
+  <div style="display: flex;justify-content: space-between;">
+    <img src="https://raw.githubusercontent.com/nxshell/nxshell/main/screenshots/wpay.jpg" width = "300" height = "300"/>
+  </div>
+</div>
+
+
 ## 联系我们
 
 微信号: yuniot8
