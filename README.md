@@ -31,6 +31,8 @@ More [screenshots](https://github.com/nxshell/nxshell/tree/main/screenshots).
 - Support VNC protocol
 - Support Dark/Light theme config
 - Support session FullScreen
+- Support layout
+- Support send command to ALL open ssh sessions
  
 ## Future(TODO)
 
