@@ -1,7 +1,7 @@
 # NxShell
 ### [中文介绍](https://github.com/nxshell/nxshell/blob/main/README-zh.md)
 
-An easy to use new terminal for Windows/Linux/MacOS platforms. It likes Xshell, SecureCRT or PuTTY shell client.
+An easy to use new terminal for Windows/Linux/MacOS platforms. It likes PuTTY shell client.
 
 ## Screenshots
 
