@@ -66,20 +66,21 @@ Welcome to report bug to the [list](https://github.com/nxshell/nxshell/issues)
 
 ## Contact us
 
-Wechat: yuniot8
+* Wechat: yuniot8
+* Email: 82828068 At qq.com
 
-QQ Group： 199234440
-
-Email: 82828068 At qq.com
-
-## Join us
+## Language
 Current NxShell Only supports Chinese and English, If you are good at language translation, please contact us.
 
 ## Real-world Uses
 Welcome to pull request [here](https://github.com/nxshell/nxshell/pulls), who use it in real team/company. We would love to have it in our list.
  
  - NxShell team
- - ...
+ 
+## Community
+* GitHub Issues: bug reports, feature requests, install issues, RFCs, thoughts, etc. [OPEN](https://github.com/nxshell/nxshell/issues/new)
+* Slack Join our workspace to keep in touch with our core contributors and be part of our community. [JOIN HERE ](https://join.slack.com/t/nxshell/shared_invite/zt-1bty01q78-3NA1ZgTMDH1XUan27lMfyA)
+* QQ Group： 199234440
 
 <!--
 **nxshell/nxshell** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
