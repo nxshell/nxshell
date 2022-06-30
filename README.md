@@ -78,9 +78,9 @@ Welcome to pull request [here](https://github.com/nxshell/nxshell/pulls), who us
  - NxShell team
  
 ## Community
-* GitHub Issues: bug reports, feature requests, install issues, RFCs, thoughts, etc. [OPEN](https://github.com/nxshell/nxshell/issues/new)
-* Slack Join our workspace to keep in touch with our core contributors and be part of our community. [JOIN HERE ](https://join.slack.com/t/nxshell/shared_invite/zt-1bty01q78-3NA1ZgTMDH1XUan27lMfyA)
-* QQ Group： 199234440
+* **GitHub Issues**: bug reports, feature requests, install issues, RFCs, thoughts, etc. [OPEN](https://github.com/nxshell/nxshell/issues/new)
+* **Slack**: Join our workspace to keep in touch with our core contributors and be part of our community. [JOIN HERE ](https://join.slack.com/t/nxshell/shared_invite/zt-1bty01q78-3NA1ZgTMDH1XUan27lMfyA)
+* **QQ Group**： 199234440
 
 <!--
 **nxshell/nxshell** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
