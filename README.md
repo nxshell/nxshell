@@ -39,9 +39,15 @@ More [screenshots](https://github.com/nxshell/nxshell/tree/main/screenshots).
 
 - NxShell 2.0
 
-## How to report bug
+## Bug report and feature requests
+We collect bug reports and feature requests with GitHub [issues](https://github.com/nxshell/nxshell/issues).
 
-Welcome to report bug to the [list](https://github.com/nxshell/nxshell/issues)
+For bug report, please read our [guidance](https://github.com/nxshell/nxshell/issues/192) before creating new issue.
+Specifically, please search for related issues before creating a new one to avoid duplicated issues.
+
+For feature request, please comment or vote under [issue#193](https://github.com/nxshell/nxshell/issues/193) for new or existing feature requests.
+We will focus on those most up-voted feature requests.
+
 
 ## How to Install
  * Download from Microsoft App Store. [link](https://www.microsoft.com/store/apps/9N0NP4JJ192W)
