@@ -34,10 +34,6 @@ More [screenshots](https://github.com/nxshell/nxshell/tree/main/screenshots).
 - Support layout
 - Support send command to ALL open ssh sessions
 - Support Lock/UnLock ops on session
- 
-## Future(TODO)
-
-- NxShell 2.0
 
 ## Bug report and feature requests
 We collect bug reports and feature requests with GitHub [issues](https://github.com/nxshell/nxshell/issues).
@@ -58,10 +54,12 @@ We will focus on those most up-voted feature requests.
  * Download package from our Daily build repo. [link](http://106.15.238.81:52080/)
 
 
+## Future(TODO)
+- NxShell 2.0
+
 ## License
 - The NxShell community binary distribution version provides basic SSH/SFTP functions for everyone to use for free, and supports the author to continue to provide useful development tools. Welcome to donate to the NxShell community to continue to grow!
 - If the company/team needs to customize the function and apply it to the private software repository, please contact the author for technical support!
-
 
 ## Donate
 <div align="center">
@@ -70,11 +68,6 @@ We will focus on those most up-voted feature requests.
   </div>
 </div>
 
-## Contact us
-
-* Wechat: yuniot8
-* Email: 82828068 At qq.com
-
 ## Language
 Current NxShell Only supports Chinese and English, If you are good at language translation, please contact us.
 
@@ -82,11 +75,14 @@ Current NxShell Only supports Chinese and English, If you are good at language t
 Welcome to pull request [here](https://github.com/nxshell/nxshell/pulls), who use it in real team/company. We would love to have it in our list.
  
  - NxShell team
- 
+
+
 ## Community
 * **GitHub Issues**: bug reports, feature requests, install issues, RFCs, thoughts, etc. [OPEN](https://github.com/nxshell/nxshell/issues/new)
 * **Slack**: Join our workspace to keep in touch with our core contributors and be part of our community. [JOIN HERE ](https://join.slack.com/t/nxshell/shared_invite/zt-1bty01q78-3NA1ZgTMDH1XUan27lMfyA)
-* **QQ Group**： 199234440
+* **QQ Group**: 199234440
+* **Wechat**: yuniot8
+* **Email**: 82828068 At qq.com
 
 <!--
 **nxshell/nxshell** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
