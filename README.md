@@ -55,7 +55,8 @@ We will focus on those most up-voted feature requests.
 
 
 ## Future(TODO)
-- NxShell 2.0
+- Plugins
+- Port to run web browser
 
 ## License
 - The NxShell community binary distribution version provides basic SSH/SFTP functions for everyone to use for free, and supports the author to continue to provide useful development tools. Welcome to donate to the NxShell community to continue to grow!
