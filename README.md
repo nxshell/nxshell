@@ -1,7 +1,7 @@
 # NxShell
 ### [中文介绍](https://github.com/nxshell/nxshell/blob/main/README-zh.md)
 
-NxShell is the next-generation SSH client, it is cross platform, easy to use, and more.
+NxShell is the next-generation SSH client, it is cross platform, open source, easy to use, and more.
 
 ## Screenshots
 
@@ -9,12 +9,11 @@ NxShell is the next-generation SSH client, it is cross platform, easy to use, an
   <div style="display: flex;justify-content: space-between;">
     <img src="https://raw.githubusercontent.com/nxshell/nxshell/main/screenshots/mac.png" />
   </div>
-  <div style="display: flex;justify-content: space-between;">
-    <img src="https://raw.githubusercontent.com/nxshell/nxshell/main/screenshots/windows.jpg" />
-  </div>
 </div>
 
 More [screenshots](https://github.com/nxshell/nxshell/tree/main/screenshots).
+
+## How Develop on source code
 
 ## Features
 
