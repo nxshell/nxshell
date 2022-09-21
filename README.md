@@ -13,7 +13,21 @@ NxShell is the next-generation SSH client, it is cross platform, open source, ea
 
 More [screenshots](https://github.com/nxshell/nxshell/tree/main/screenshots).
 
-## How Develop on source code
+## Develop on source code
+> open an terminal
+```
+git clone https://github.com/nxshell/shell.git
+cd shell
+git clone https://github.com/nxshell/core.git
+cd core && npm i
+cd .. & npm i
+npm run serve
+```
+
+> open other terminal
+```
+node devtools/run.js
+```
 
 ## Features
 
