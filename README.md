@@ -20,7 +20,7 @@ git clone https://github.com/nxshell/shell.git
 cd shell
 git clone https://github.com/nxshell/core.git
 cd core && npm i
-cd .. & npm i
+cd .. && npm i
 npm run serve
 ```
 
