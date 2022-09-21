@@ -26,7 +26,7 @@ npm run serve
 
 > open other terminal
 ```
-node devtools/run.js
+node devtools/rundev.js
 ```
 
 ## Features
