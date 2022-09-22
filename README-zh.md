@@ -7,12 +7,25 @@
   <div style="display: flex;justify-content: space-between;">
     <img src="https://raw.githubusercontent.com/nxshell/nxshell/main/screenshots/mac.png" />
   </div>
-  <div style="display: flex;justify-content: space-between;">
-    <img src="https://raw.githubusercontent.com/nxshell/nxshell/main/screenshots/windows.jpg" />
-  </div>
 </div>
 
 欢迎访问界面截图集 [截图](https://github.com/nxshell/nxshell/tree/main/screenshots).
+
+## 基于源代码开发新功能
+> open an terminal
+```
+git clone https://github.com/nxshell/shell.git
+cd shell
+git clone https://github.com/nxshell/core.git
+cd core && npm i
+cd .. && npm i
+npm run serve
+```
+
+> open other terminal
+```
+node devtools/rundev.js
+```
 
 ## 功能
 
