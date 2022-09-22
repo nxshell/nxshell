@@ -47,6 +47,8 @@ node devtools/rundev.js
 - Support layout
 - Support send command to ALL open ssh sessions
 - Support Lock/UnLock ops on session
+- Support shortcut ops on session
+- Support SFTP online editor
 
 ## Bug report and feature requests
 We collect bug reports and feature requests with GitHub [issues](https://github.com/nxshell/nxshell/issues).
