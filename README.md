@@ -77,13 +77,6 @@ We will focus on those most up-voted feature requests.
 - The NxShell community binary distribution version provides basic SSH/SFTP functions for everyone to use for free, and supports the author to continue to provide useful development tools. Welcome to donate to the NxShell community to continue to grow!
 - If the company/team needs to customize the function and apply it to the private software repository, please contact the author for technical support!
 
-## Donate
-<div align="center">
-  <div style="display: flex;justify-content: space-between;">
-    <img src="https://raw.githubusercontent.com/nxshell/nxshell/main/screenshots/wpay.jpg" width = "300" height = "300"/>
-  </div>
-</div>
-
 ## Language
 Current NxShell Only supports Chinese and English, If you are good at language translation, please contact us.
 
