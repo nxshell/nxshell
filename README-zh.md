@@ -65,14 +65,6 @@ node devtools/rundev.js
 - NxShell社区二进制分发版本提供基础的SSH/SFTP功能供大家免费使用，支持作者继续提供好用的开发工具，欢迎捐献NxShell社区继续成长！
 - 如有公司/团队需要定制功能以及应用到私有软件仓库，请联系作者提供技术支持！
 
-## 捐献社区
-<div align="center">
-  <div style="display: flex;justify-content: space-between;">
-    <img src="https://raw.githubusercontent.com/nxshell/nxshell/main/screenshots/wpay.jpg" width = "300" height = "300"/>
-  </div>
-</div>
-
-
 ## 联系我们
 
 微信号: yuniot8
