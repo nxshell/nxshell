@@ -93,6 +93,11 @@ Welcome to pull request [here](https://github.com/nxshell/nxshell/pulls), who us
 * **Wechat**: yuniot8
 * **Email**: 82828068 At qq.com
 
+## Thanks our Contributors
+<a href="https://github.com/nxshell/shell/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=nxshell/shell" />
+</a>
+
 <!--
 **nxshell/nxshell** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
