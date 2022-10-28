@@ -81,6 +81,11 @@ QQ群： 199234440
  - NxShell team
  - ...
 
+## 感谢贡献者
+<a href="https://github.com/nxshell/shell/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=nxshell/shell" />
+</a>
+
 <!--
 **nxshell/nxshell** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
