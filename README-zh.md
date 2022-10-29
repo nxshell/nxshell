@@ -43,6 +43,7 @@ node devtools/rundev.js
 - 支持会话锁定
 - 支持快捷键操作
 - 支持sftp在线编辑器
+- 支持lrz/lsz文件传输
 
 ## 待开发的功能(TODO)
 
