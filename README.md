@@ -49,6 +49,7 @@ node devtools/rundev.js
 - Support Lock/UnLock ops on session
 - Support shortcut ops on session
 - Support SFTP online editor
+- Support lrz/lsz command
 
 ## Bug report and feature requests
 We collect bug reports and feature requests with GitHub [issues](https://github.com/nxshell/nxshell/issues).
