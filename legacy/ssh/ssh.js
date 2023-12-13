@@ -15,14 +15,16 @@ class SSH {
       }
     }
   
-    link (bw, ip, port, username, password, authtype) {
+    link (bw, ip, port, username, authtype, password) {
       console.log(`Startup SSh with IP ${ip}:${port}!`);
       /* Fork a native ssh process */
       this.ssh_remote = spawn('ssh', [`${username}@${ip}`, '-p', `${port}`]);
       this.ssh_remote.stdout.on('data', (data) => {
+        // sshd to UI
         bw.webContents.send('ssh-contents', data)
       });
       this.ssh_remote.stderr.on('data', (data) => {
+        // sshd to UI
         bw.webContents.send('ssh-contents', data)
       });
     }
@@ -31,16 +33,13 @@ class SSH {
 
     }
 
-    stdin() {
-      ssh.stdin.write('ls\n');
-      ssh.stdin.end();
+    //
+    stdin(bw, body) {
+      this.ssh_remote.stdin.write("ls");
+      this.ssh_remote.stdin.end();
     }
-
-    stdout() {
-
-    }
-
   }
   
+
   // 导出类的一个实例
   module.exports = SSH;

@@ -50,10 +50,8 @@ const NewSSHContents = ({onSubmit}) => {
     };
 
     const onFinish = (values) => {
-        console.log(values);
-        /*
-            Call native module to create a new ssh session
-        */
+        // Call native module to create a new ssh session
+        window.electronAPI.sshStartConnect(values);
 
         // Tell parents so they have chances to do something
         values.action = 'add';

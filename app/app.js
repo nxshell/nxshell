@@ -95,17 +95,25 @@ const App = () => {
     );
     */
     return (
-        <Layout >
-            <Content>
-                {/* 内容部分 */}
                 <div>
                     {/* 这里放置你的组件内容 */}
                     <Panel panelId={panelId} onSubmit={onSubmit} navItems={navItems}/>
                     {views}        
                 </div>
-            </Content>
-        </Layout>
      )
+
+     //return (
+     //   <Layout >
+     //       <Content>
+     //           {/* 内容部分 */}
+     //           <div>
+     //               {/* 这里放置你的组件内容 */}
+     //               <Panel panelId={panelId} onSubmit={onSubmit} navItems={navItems}/>
+     //               {views}        
+     //           </div>
+     //       </Content>
+     //   </Layout>
+     //)
 };
 
 export default App;
