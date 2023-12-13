@@ -30,7 +30,6 @@ class SSH {
       /* Fork a native ssh process */
       this.ssh_remote = ptyProcess;
       ptyProcess.onData((data) => {
-        console.log("pty process get ", data);
         // sshd to UI
         bw.webContents.send('ssh-contents', data)
       });

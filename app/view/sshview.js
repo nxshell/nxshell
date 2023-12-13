@@ -26,7 +26,7 @@ const SSHView = () => {
     // Write some content to the terminal
     term.write('NxShell2 startup...\r\n');
 
-    // listen
+    // listen key, term 先获得key，发给nodejs，然后nodejs 发给sshd
     term.focus();
     term.onKey(e => {
       // 回车键
