@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    
+    <button id="startConnectBut">链接</button>
+    <textarea id="sshContentsArea" rows="20" cols="50"></textarea><br>
+
+    <script src="renderer.js"></script>
+    <script>
+      startConnectBut.addEventListener('click', () => {
+        window.electronAPI.sshStartConnect();
+      })
+    </script>
+
+  </body>
+</html>

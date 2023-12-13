@@ -1,1 +1,8 @@
-The new architecture
+
+
+prerequests:
+    npm install
+    
+run:
+    npx webpack
+    npm start
