@@ -31,17 +31,15 @@ const SSHView = () => {
     term.onKey(e => {
       // 回车键
       if (e.domEvent.keyCode === 13) {
-        term.write('\r\n');
         sendKeyToSSHD('\n');
       } else {
-        term.write(e.key);
         sendKeyToSSHD(e.key);
       }
     })
 
     // 监听窗口大小变化事件
     const handleResize = () => {
-      // 分屏 / 全屏等，计算此处的大小
+      // 分屏 / 全屏等，计算此处的大小，并且跟pty 同步
       // TODO
       term.resize(120, 40);
     };
@@ -68,9 +66,8 @@ const SSHView = () => {
 
   useEffect(() => {
     const updateSSHContentsArea = (contents) => {
-      const string = String.fromCharCode.apply(null, contents);
       if (termRef.current) {
-        termRef.current.write(string);
+        termRef.current.write(contents);
       }
     };
 

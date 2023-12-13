@@ -3,27 +3,34 @@
  */
 
 //const { spawn } = require('child_process');
-import { spawn } from 'pty.js';
+var os = require('os');
+var pty = require('node-pty');
+var shell = os.platform() === 'win32' ? 'powershell.exe' : 'bash';
 
 class SSH {
     constructor(name) {
       this.ssh_remote = null;
       this.name = name;
-      this.native_path  = "/usr/bin/ssh"
-      if (process.platform === 'win32') {
-        // TODO: use bin in the package
-      }
     }
   
     link (bw, ip, port, username, authtype, password) {
-      console.log(`Startup SSh with IP ${ip}:${port}!`);
-      /* Fork a native ssh process */
-      this.ssh_remote = spawn('ssh', [`${username}@${ip}`, '-p', `${port}`]);
-      this.ssh_remote.stdout.on('data', (data) => {
-        // sshd to UI
-        bw.webContents.send('ssh-contents', data)
+      
+      var cmd = `ssh ${username}@${ip}` + ' -p ' + `${port}`;
+      console.log("Startup ssh with cmd", cmd);
+      var ptyProcess = pty.spawn(shell, ['-c', cmd], {
+        name: 'xterm-color',
+        // Should same with UI
+        // TODO
+        cols: 80,
+        rows: 30,
+        cwd: process.env.HOME,
+        env: process.env
       });
-      this.ssh_remote.stderr.on('data', (data) => {
+
+      /* Fork a native ssh process */
+      this.ssh_remote = ptyProcess;
+      ptyProcess.onData((data) => {
+        console.log("pty process get ", data);
         // sshd to UI
         bw.webContents.send('ssh-contents', data)
       });
@@ -35,7 +42,7 @@ class SSH {
 
     //
     stdin(bw, body) {
-      this.ssh_remote.stdin.write(body.value)
+      this.ssh_remote.write(body.value)
     }
   }
   
