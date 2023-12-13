@@ -2,8 +2,8 @@
  * 我们采用IPC 模型
  */
 
-const { spawn } = require('child_process');
-
+//const { spawn } = require('child_process');
+import { spawn } from 'pty.js';
 
 class SSH {
     constructor(name) {
@@ -35,8 +35,7 @@ class SSH {
 
     //
     stdin(bw, body) {
-      this.ssh_remote.stdin.write("ls");
-      this.ssh_remote.stdin.end();
+      this.ssh_remote.stdin.write(body.value)
     }
   }
   

@@ -1,12 +1,10 @@
 import { Button, Flex, Divider, Col, Row } from 'antd';
 import { Typography } from 'antd';
-const { Title } = Typography;
 import { ApiOutlined } from '@ant-design/icons';
 
 import React, { useEffect, useRef } from 'react';
 import { Terminal } from 'xterm';
 import 'xterm/css/xterm.css';
-import { FitAddon } from 'xterm-addon-fit';
 
 const SSHView = () => {
   const termRef = useRef(null);
@@ -16,6 +14,7 @@ const SSHView = () => {
     const options = {
       cursorBlink: true, // 光标闪烁
       fontFamily: '"DejaVu Sans Mono", monospace',
+      termName: 'xterm', 
       // 其他窗口选项...
     };
     const term = new Terminal(options);
@@ -30,16 +29,14 @@ const SSHView = () => {
     // listen
     term.focus();
     term.onKey(e => {
+      // 回车键
       if (e.domEvent.keyCode === 13) {
         term.write('\r\n');
+        sendKeyToSSHD('\n');
       } else {
         term.write(e.key);
+        sendKeyToSSHD(e.key);
       }
-      // Send from UI to sshd
-      let key = {
-        value: e.key
-      };
-      window.electronAPI.sshRecvKey(key);
     })
 
     // 监听窗口大小变化事件
@@ -60,12 +57,30 @@ const SSHView = () => {
     };
   }, []);
 
+  const sendKeyToSSHD = (key) => {
+    try {
+      // Add logic to send key to sshd
+      window.electronAPI.sshRecvKey({ value: key });
+    } catch (error) {
+      console.error('Error sending key to sshd:', error);
+    }
+  };
 
-  // Listen Native Message
-  window.electronAPI.onUpdateSSHContentsArea((contents) => {
-    let string = String.fromCharCode.apply(null, contents);
-    termRef.current.write(string);
-  })
+  useEffect(() => {
+    const updateSSHContentsArea = (contents) => {
+      const string = String.fromCharCode.apply(null, contents);
+      if (termRef.current) {
+        termRef.current.write(string);
+      }
+    };
+
+    window.electronAPI.onUpdateSSHContentsArea(updateSSHContentsArea);
+
+    return () => {
+      //window.electronAPI.offUpdateSSHContentsArea(updateSSHContentsArea);
+    };
+  }, []);
+
 
   return (
     <div ref={termRef}></div>
