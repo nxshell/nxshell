@@ -11,13 +11,14 @@ function panelCreatePanelId() {
 }
 
 const createWindow = () => {
+  const { width, height } = require('electron').screen.getPrimaryDisplay().workAreaSize;
   const win = new BrowserWindow({
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
       nodeIntegration: true,
     },
-    width: 800,
-    height: 600,
+    width: Math.floor(width / 2),
+    height,
   })
   win.webContents.openDevTools()
 

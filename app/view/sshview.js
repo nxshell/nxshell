@@ -1,75 +1,63 @@
-
-import React from 'react';
-import Panel from '../panel/panel'
 import { Button, Flex, Divider, Col, Row } from 'antd';
 import { Typography } from 'antd';
 const { Title } = Typography;
 import { ApiOutlined } from '@ant-design/icons';
 
-class SSHView extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      count: props.initialCount,
+import React, { useEffect, useRef } from 'react';
+import { Terminal } from 'xterm';
+import 'xterm/css/xterm.css';
+import { FitAddon } from 'xterm-addon-fit';
+
+const SSHView = () => {
+  const termRef = useRef(null);
+
+  useEffect(() => {
+    const options = {
+      cursorBlink: true, // 光标闪烁
+      // 其他窗口选项...
     };
-  }
+    const term = new Terminal(options);
+    
+    term.open(termRef.current);
+    // 保存终端实例到 ref 中，以便在组件中访问
+    termRef.current = term;
 
-  handleClick = () => {
-    this.setState((prevState) => ({ count: prevState.count + 1 }));
-  };
+    // Write some content to the terminal
+    term.write('NxShell2 startup...\r\n');
 
-  handleNameChange = (event) => {
-    this.setState({ name: event.target.value });
-  };
+    // listen
+    term.focus();
+    term.onKey(e => {
+      if (e.domEvent.keyCode === 13) {
+        term.write('\r\n');
+      } else {
+        term.write(e.key);
+      }
+    })
 
-  render() {
-    return (
-      <>
+    // 监听窗口大小变化事件
+    const handleResize = () => {
+      // 分屏 / 全屏等，计算此处的大小
+      // TODO
+      term.resize(80, 40);
+    };
+    window.addEventListener('resize', handleResize);
 
-        <Flex justify='center'>
-     
-            <Title level={3}>Welcome to SSH</Title>
-            
-        </Flex>
-        
-        <Row justify='center' gutter={[48, 1]} >
-            <Col span={6}>
-                <Flex vertical={1}>
-                    <Button type="text">
-                        系统设置
-                    </Button>
-                    <Button type="text">
-                        开源地址
-                    </Button>
-                    <Button type="text">
-                        意见建议
-                    </Button>
-                    <Button type="text">
-                        联系方式
-                    </Button>
-                </Flex>
-                
-                
-            </Col>
-            
-            <Col span={6}>
-                
-                <Flex vertical={1}>
-                    <Button type="text">
-                        历史会话1
-                    </Button>
-                    <Button type="text">
-                        历史会话2
-                    </Button>
-                </Flex>
-            </Col>
-            
-        </Row>
-      </>
-          
-    );
-  }
-}
+    // 手动触发一次以确保初始大小正确
+    handleResize();
+
+    // 清理函数
+    return () => {
+      window.removeEventListener('resize', handleResize);
+      term.dispose();
+    };
+  }, []);
+
+  //return <div ref={termRef} style={{ width: '100%', height: '100%' }} />;
+  return (
+    <div ref={termRef}></div>
+  )
+};
 
 export default SSHView;
 

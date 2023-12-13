@@ -1,11 +1,14 @@
 import React, {useState, useEffect} from 'react';
-import WelcomeView from './view/welcome';
 import Panel from './panel/panel'
 import ReactDOM from 'react-dom';
 import { HomeOutlined } from '@ant-design/icons';
+import { Layout } from 'antd';
+const { Content } = Layout;
 
 import NewSSHDialogContents from './dialog/newssh';
 import NewSettingContents from './dialog/setting'; 
+import WelcomeView from './view/welcome';
+import SSHView from './view/sshview';
 
 const App = () => {
     const [panelId, setPanelId] = useState(null);
@@ -84,11 +87,24 @@ const App = () => {
      */
     if (panelId == null)
         return null;
+    /*
     return (
-        <>
-        <Panel panelId={panelId} onSubmit={onSubmit} navItems={navItems}/>
-        {views}
-        </>
+            <div>
+                <SSHView />
+            </div>  
+    );
+    */
+    return (
+        <Layout >
+            <Content>
+                {/* 内容部分 */}
+                <div>
+                    {/* 这里放置你的组件内容 */}
+                    <Panel panelId={panelId} onSubmit={onSubmit} navItems={navItems}/>
+                    {views}        
+                </div>
+            </Content>
+        </Layout>
      )
 };
 
