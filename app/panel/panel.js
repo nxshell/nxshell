@@ -26,9 +26,8 @@ class Panel extends React.Component {
     };
   }
   render () {
-    const menuIdx = this.state.menuIdx;
-
     const onSubmit = (value) => {
+      const menuIdx = this.state.menuIdx;
       // Create new
       const menu = value.navMenuClass(menuIdx);
       console.log("add new item, menu", menu)
@@ -50,7 +49,6 @@ class Panel extends React.Component {
     const toggleVissible = (key) => {
       let n = this.state.viewContents.map((c) =>
         c.key === key? {...c, visible:true}:{...c, visible:false});
-      console.log("TOG", n);
       this.setState({viewContents:n});
     }
 
@@ -66,11 +64,11 @@ class Panel extends React.Component {
 
     return (
       <>
-        <PanelNavTop _idx={menuIdx} navItems={navItems} onSubmit={onSubmit} onClickTap={onClickTap} key="panelNavTop" />
+        <PanelNavTop navItems={navItems} onSubmit={onSubmit} onClickTap={onClickTap} key="panelNavTop" />
         {
           views.map((v) => (
-            <div key={v.key}>
-            {v.visible && (v.body)}
+            <div style={{"display":v.visible?"block":"none"}} key={v.key}>
+            {v.body}
             </div>
           ))
         }
