@@ -56,6 +56,7 @@ class PanelNavTop extends React.Component {
     this.state = {
         ...props,
         showModal: false,
+        currentTab: 'addnew',
         modalTitle: "NoTitle",
         items:[
             
@@ -105,6 +106,7 @@ class PanelNavTop extends React.Component {
     // 菜单点击，包括子菜单内容
     const onClick = (e) => {
         console.log('click ', e);
+        
         // 弹出对话框配置新建的链接会话
         if (e.key == 'ssh') {
             // 将ssh 的内容填充到对话框中
@@ -117,6 +119,10 @@ class PanelNavTop extends React.Component {
         } else if (e.key == 'setting') {
             this.setState({modalText:getSettingModalBody()})
             showModal();
+        } else {
+          this.setState({currentTab: e.key});
+          // Normal tab
+          this.props.onClickTap(e.key);
         }
     };
 
@@ -124,6 +130,7 @@ class PanelNavTop extends React.Component {
         closeModal();
     };
 
+    const current = this.state.currentTab;
     return (
         <>
         <ConfigProvider
@@ -135,7 +142,7 @@ class PanelNavTop extends React.Component {
               },
           }}
           >
-              <Menu onClick={onClick} mode="horizontal" items={items} triggerSubMenuAction="click" />
+              <Menu key="menu1" onClick={onClick} selectedKeys={[current]} mode="horizontal" items={items} triggerSubMenuAction="click" />
             
         </ConfigProvider>
 

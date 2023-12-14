@@ -2,6 +2,7 @@ import React from 'react';
 import { Button, Flex, Divider, Col, Row } from 'antd';
 import { Typography } from 'antd';
 
+
 const { Title } = Typography;
 
 class WelcomeView extends React.Component {

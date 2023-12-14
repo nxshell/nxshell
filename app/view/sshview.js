@@ -2,13 +2,30 @@ import { Button, Flex, Divider, Col, Row } from 'antd';
 import { Typography } from 'antd';
 import { ApiOutlined } from '@ant-design/icons';
 
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Terminal } from 'xterm';
 import 'xterm/css/xterm.css';
 
-const SSHView = () => {
+/*
+class SSHView extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { ...props }
+    console.log("construc");
+  }
+  componentWillUnmount () {
+    console.log("will unmount");
+  }
+  render () {
+    return (
+      <div key={"sss"}>cccccc</div>
+    )
+  }
+}
+*/
+
+const SSHView = ({_show}) => {
   const termRef = useRef(null);
-  var sshContentsArea = "";
 
   useEffect(() => {
     const options = {
@@ -17,6 +34,7 @@ const SSHView = () => {
       termName: 'xterm', 
       // 其他窗口选项...
     };
+    console.log("Add ssh view from sshview.js", termRef.current)
     const term = new Terminal(options);
     
     term.open(termRef.current);
@@ -77,7 +95,6 @@ const SSHView = () => {
       //window.electronAPI.offUpdateSSHContentsArea(updateSSHContentsArea);
     };
   }, []);
-
 
   return (
     <div ref={termRef}></div>
