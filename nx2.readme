@@ -6,6 +6,3 @@ prerequests:
 run:
     npx webpack
     npm start
-
-note:
-    electron-rebuild

@@ -30,6 +30,10 @@ node devtools/rundev.js
 ```
 
 ## Features
+- In progress: backoup & restore user-defined config files(such as nginx.conf,etc) of Servers.
+- In progress: record commands that have been inputed to Server for security audit.
+- In progress: AI-GPT that can be used to generate shell scripts to manage your Servers by inputing human languages.
+- In progress: UI-interface to view Server status, such as network stream, dist usage, cpu usage, process list.
 
 - Support SSH protocol
 - Support Windows/Linux/MacOS platform
