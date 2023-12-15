@@ -51,13 +51,15 @@ const NewSSHContents = ({onSubmit}) => {
 
     const onFinish = (values) => {
         // Call native module to create a new ssh session
-        window.electronAPI.sshStartConnect(values);
-
-        // Tell parents so they have chances to do something
-        values.action = 'add';
-        values.viewClass = SSHView;
-        values.navMenuClass = SSHViewNavMenu;
-        onSubmit(values)
+        window.electronAPI.sshStartConnect(values).then(function(ret)  {
+            console.log("new ssh get ret ", ret)
+            // Tell parents so they have chances to do something
+            values.sessionId = ret.sessionId
+            values.action = 'add';
+            values.viewClass = SSHView;
+            values.navMenuClass = SSHViewNavMenu;
+            onSubmit(values)
+        })
     };
     const onReset = () => {
         form.resetFields();

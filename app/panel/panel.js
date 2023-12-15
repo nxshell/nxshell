@@ -26,15 +26,15 @@ class Panel extends React.Component {
     };
   }
   render () {
+
+    // Create new
     const onSubmit = (value) => {
       const menuIdx = this.state.menuIdx;
-      // Create new
       const menu = value.navMenuClass(menuIdx);
-      console.log("add new item, menu", menu)
       const view = (
         {
           key: "view-contents-div-" + menu.key,
-          body: <value.viewClass key={"view-contents-" + menu.key}/>,
+          body: <value.viewClass sessionId={value.sessionId} key={"view-contents-" + menu.key}/>,
           visible: true
         }
       );

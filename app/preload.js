@@ -2,7 +2,7 @@ const { contextBridge, ipcRenderer } = require('electron/renderer')
 
 contextBridge.exposeInMainWorld('electronAPI', {
   // UI call Native
-  sshStartConnect: (body) => ipcRenderer.send('ssh-start-connect', body),
+  sshStartConnect: (body) => ipcRenderer.invoke('ssh-start-connect', body),
   sshRecvKey: (body) => ipcRenderer.send('ssh-recv-key', body),
 
   // UI listen Native

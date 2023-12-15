@@ -6,25 +6,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Terminal } from 'xterm';
 import 'xterm/css/xterm.css';
 
-/*
-class SSHView extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { ...props }
-    console.log("construc");
-  }
-  componentWillUnmount () {
-    console.log("will unmount");
-  }
-  render () {
-    return (
-      <div key={"sss"}>cccccc</div>
-    )
-  }
-}
-*/
-
-const SSHView = ({_show}) => {
+const SSHView = ({sessionId}) => {
   const termRef = useRef(null);
 
   useEffect(() => {
@@ -34,7 +16,7 @@ const SSHView = ({_show}) => {
       termName: 'xterm', 
       // 其他窗口选项...
     };
-    console.log("Add ssh view from sshview.js", termRef.current)
+    console.log("SSHView new with sessionId", sessionId);
     const term = new Terminal(options);
     
     term.open(termRef.current);
@@ -43,6 +25,7 @@ const SSHView = ({_show}) => {
 
     // Write some content to the terminal
     term.write('NxShell2 startup...\r\n');
+  
 
     // listen key, term 先获得key，发给nodejs，然后nodejs 发给sshd
     term.focus();
@@ -76,16 +59,18 @@ const SSHView = ({_show}) => {
   const sendKeyToSSHD = (key) => {
     try {
       // Add logic to send key to sshd
-      window.electronAPI.sshRecvKey({ value: key });
+      window.electronAPI.sshRecvKey({ value: key, sessionId });
     } catch (error) {
       console.error('Error sending key to sshd:', error);
     }
   };
 
   useEffect(() => {
-    const updateSSHContentsArea = (contents) => {
-      if (termRef.current) {
-        termRef.current.write(contents);
+    const updateSSHContentsArea = (body) => {
+      // 因为ssh-contents就一个，所有view 都坚挺这个消息
+      // 因此要识别是不是要给本实例的显示内容。
+      if (termRef.current && body.sessionId == sessionId) {
+        termRef.current.write(body.contents);
       }
     };
 
