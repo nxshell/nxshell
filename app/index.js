@@ -12,8 +12,6 @@ function panelCreatePanelId() {
   return curPanelId;
 }
 
-
-
 const createWindow = () => {
   const { width, height } = require('electron').screen.getPrimaryDisplay().workAreaSize;
   const win = new BrowserWindow({
@@ -25,8 +23,6 @@ const createWindow = () => {
     height,
   })
   win.webContents.openDevTools();
-
-
 
   // Load 主页面，其他交给JS
   win.loadFile('./index.html')
